@@ -1,0 +1,19 @@
+//EX1
+const nomes =["Emma-Thomas","Pati-Farias","Jalin","Oscar Alho","Botelho","Marinalva"];
+for(const nome of nomes){
+    console.log (nome)
+}
+
+///////////////////////
+console.log("----------------------------")
+///////////////////////
+
+//EX2
+const numeros =[ 10,15,20,25,30,35,40];
+//essa ray tem 7 numeros
+
+console.log(numeros.length);
+
+const numerospar =numeros.filter(numero % 2 === 0);
+
+console.log ("NUMEROS PARES SAO:",numerospar);
